@@ -1,0 +1,36 @@
+# Search engines must crawl an HTML page to see its noindex instruction.
+# Therefore, mainstream search crawlers are allowed here but receive noindex
+# in every HTML page. The groups below ask common AI/data crawlers not to crawl.
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: *
+Allow: /
